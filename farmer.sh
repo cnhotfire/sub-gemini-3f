@@ -14,7 +14,7 @@
 # 绘图路径
 PATH_TO_PLOT=/data2/subspace/farmer-data
 # 绘图大小
-PLOT_SIZE=100G
+PLOT_SIZE=1xxG
 # 钱包地址
 WALLET_ADDRESS=xxxxxx
 nohup ./farmer farm --reward-address ${WALLET_ADDRESS} path=${PATH_TO_PLOT},size=${PLOT_SIZE} > farmer.log 2>&1 &
