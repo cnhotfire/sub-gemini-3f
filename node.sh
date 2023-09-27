@@ -11,7 +11,7 @@
 
 # 将INSERT_YOUR_ID修改为自己要运行的节点的名字
 nohup ./node \
-  --base-path "/data/subspace/node-data" \
+  --base-path "/data2/subspace/node-data" \
   --out-peers 100 \
   --in-peers 100 \
   --chain gemini-3f \
@@ -20,5 +20,5 @@ nohup ./node \
   --state-pruning archive \
   --no-private-ipv4 \
   --validator \
-  --name "" \
+  --name "gtxxxx" \
   > node.log 2>&1 &
