@@ -13,8 +13,9 @@
 # Replace `PLOT_SIZE` with plot size in gigabytes or terabytes, for example 100G or 2T (but leave at least 60G of disk space for node and some for OS)
 # 绘图路径
 PATH_TO_PLOT=/data2/subspace/farmer-data
+NODE_RPC="127.0.0.1:9944"
 # 绘图大小
 PLOT_SIZE=1xxG
 # 钱包地址
 WALLET_ADDRESS=xxxxxx
-nohup ./farmer farm --reward-address ${WALLET_ADDRESS} path=${PATH_TO_PLOT},size=${PLOT_SIZE} > farmer.log 2>&1 &
+nohup ./farmer farm --node-rpc-url ${NODE_RPC}--reward-address ${WALLET_ADDRESS} path=${PATH_TO_PLOT},size=${PLOT_SIZE} > farmer.log 2>&1 &
