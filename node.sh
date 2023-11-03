@@ -18,6 +18,7 @@ nohup ./node \
   --execution native-else-wasm \
   --blocks-pruning 256 \
   --state-pruning archive-canonical \
+  --rpc-port 9945 \
   --no-private-ipv4 \
   --validator \
   --name "gtxxxx" \
