@@ -13,7 +13,7 @@
 # Replace `PLOT_SIZE` with plot size in gigabytes or terabytes, for example 100G or 2T (but leave at least 60G of disk space for node and some for OS)
 # 绘图路径
 PATH_TO_PLOT=/data2/subspace/farmer-data
-NODE_RPC="ws://127.0.0.1:9944"
+NODE_RPC="ws://127.0.0.1:9945"
 # 绘图大小
 PLOT_SIZE=1xxG
 # 钱包地址
