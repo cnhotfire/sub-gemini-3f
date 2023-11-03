@@ -14,10 +14,10 @@ nohup ./node \
   --base-path "/data2/subspace/node-data" \
   --out-peers 100 \
   --in-peers 100 \
-  --chain gemini-3f \
-  --execution wasm \
+  --chain gemini-3g \
+  --execution native-else-wasm \
   --blocks-pruning 256 \
-  --state-pruning archive \
+  --state-pruning archive-canonical \
   --no-private-ipv4 \
   --validator \
   --name "gtxxxx" \
